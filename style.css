@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #fbfbfb;
+}
+
+.page-1{
+    width: 100%;
+    background-color:#636c79;
+    margin-top: 0px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    padding-top:3%;
+}
+
+.navbar img[src="./assets/white-logo.png"]{
+    width: 120px;
+    height: 40px;
+}
+
+.list{
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+}
+
+.list-item{
+    width: 50px;
+    padding-left: 10%;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight:400;
+}
+
+.about-us{
+    width: 100px;
+    white-space:nowrap;
+}
+
+.list-item:hover{
+    cursor:pointer ;
+    font-weight: 600;
+}
+
+.button{
+    display: inline-block;
+    border: 1.5px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+button:hover{
+    cursor:pointer ;
+}
+
+.first-page{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-1 img{
+    width: 400px;
+    height: 400px;
+    padding: 50px 75px;
+    
+}
+
+.first-heading{
+    display: block;
+    position: relative;
+    color: white;
+    font-family:Montserrat ;
+}
+
+.first-heading h1{
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    font-size: 60px;
+    top:30px;
+    right: 25px;
+}
+
+.first-heading p{
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    top: 300px;
+    left:25px ;
+    right: 225px;
+}
+
+.email-container{
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 25px;
+}
+
+.email-container input{
+    position: relative;
+    width: 450px;
+    padding: 15px 25px ;
+    background-image:url(assets/mail.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    background-size: 15px;
+}
+.email-container button{
+    position: absolute;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color:rgb(5, 30, 255);
+    width: 150px;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 5px;
+    right: 0;
+}
+
+.page-2-heading{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-2-heading h1{
+    position: absolute;
+    width: 500px;
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.page-2-data{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+.data p{
+    color: #636c79;
+}
+
+.video-img img{
+    width: 1050px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.page-3-heading-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.page-3-heading-1 h1{
+    width: 650px;
+}
+
+.img-box{
+    flex: 1;
+}
+
+.img-box img{
+    padding-left: 50px;
+    width: 350px;
+    height:350px;
+}
+
+.page-3{
+    display: flex;
+    justify-content: space-around;
+    padding:50px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.text-box{
+    flex: 1;
+    padding: 35px;
+}
+
+.text-box h2{
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+.text-box p{
+    color: #636c79;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.text-box button{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color:rgb(5, 30, 255);
+    width: 150px;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 25px 25px;
+    right: 0;
+}
+
+.page-4-top{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 50px;
+}
+.page-4-top h1{
+    width: 500px;
+}
+.page-4-top p{
+    flex: 50%;
+    width: 500px;
+}
+
+.page-4-mid{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img img{
+    width: 250px;
+    height: 320px;
+}
+
+.img h4{
+    font-size: 25px;
+    margin-top: 0px;
+}
+.img p{
+    color: #636c79;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    margin-top: -25px;
+}
+
+.page-4-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.page-4-end button{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color:rgb(5, 30, 255);
+    width: 150px;
+    height: 35px;
+    padding: 5px 10px;
+    margin-top: 25px;
+}
+
+.last-page{
+    background-color: #10181d;
+    display: flex;
+    justify-content:space-between;
+    padding: 50px;
+    margin-top: 150px;
+    height: 50px;
+    position: relative;
+}
+
+ .last-page:after{
+    position: absolute;
+    content: "";
+   border-bottom: 1.5px solid #fff;
+    width: 900px;
+    bottom: 15px;
+    left: 150px;
+} 
+
+.last-page-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #10181d;
+    color: #fff;
+    padding-left: 100px;
+}
+
+.last-logo{
+    width: 20vw;
+}
+
+a:link{
+    text-decoration: none
+}
+
+ a{
+    color: #a7a59d;
+}
+
+.images img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo-box img{
+    width:100px;
+}
